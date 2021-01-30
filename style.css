@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/bus.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+nav ul li a:hover, a.active{
+    background-color: #52AF3A;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+}
+.booking-content{
+    color: #fff;
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+.booking-form{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 80%;
+    margin: 50px 0px 0px 80px;
+}
+.booking-form h3{
+    margin: 10px 0px;
+}
+.booking-form  .input-group{
+    margin: 10px 0;
+}
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 100px;
+}
+
+.increaseDecreaseBtn{
+    cursor: pointer;
+    padding: 1px;
+    color: #3352F2;
+    margin-left: 10px;
+    margin-top: 22px;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    border:1px solid #656fa5;
+    outline: none; 
+   
+}
+
+
+.btn-style{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color:  #52AF3A;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 5px;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bookConfirm{
+    
+    display: none;
+}
+#bookConfirm h1{
+    text-align: center;
+    color:green;
+    margin: 25px 0;
+
+}
+#bookConfirm h4{
+    margin-top: 10px;
+}
+.description{
+    float: left;
+}
+.information{
+    float:right;
+}
+.bookContainer{
+    height: 150px;
+    width: 350px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 5px gray;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 50px 45px 30px 85px;
+    color: #53575a;
+}
